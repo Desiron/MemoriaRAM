@@ -41,8 +41,12 @@ O a primeira coluna (Num.), é o número da página lógica, a segunda coluna (D
 
 
 FONTES:
+
 http://www.infoescola.com/informatica/memoria-ram/
+
 http://queconceito.com.br/memoria-rom
+
 http://sotekno.blogspot.com.br/2009/11/paginacao-de-memoria.html
+
 
 
