@@ -25,10 +25,15 @@ A paginação ocorre quando o programa é executado, o mesmo é escrito com a su
 
 
 Exemplo de memória física/lógica
+
 Num. Des. Mem
+
 000 | 00 | A1
+
 000 | 01 | A2
+
 000 | 10 | A3
+
 000 | 11 | A4
 
 O a primeira coluna (Num.), é o número da página lógica, a segunda coluna (Des.) é o deslocamento dentro da tabela, ao ser criada a pagina lógica é também criada a página física com o mesmo formato da página lógica só diferem que a memória física não necessita que suas páginas estejam na mesma ordem que as páginas na memória lógica, mas precisa que o deslocamento dentro das páginas seja o mesmo tanto na memória física quanto na lógica, por tanto a página da memória física será carrega com o mesmo formato da memória lógica, tendo diferente apenas seus endereço de página, durante essa carga é criada a tabela de páginas. Essa tabela é usada para saber qual página da memória lógica corresponde à página da memória física.
